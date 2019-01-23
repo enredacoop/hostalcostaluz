@@ -397,7 +397,13 @@ label {
 
 section {
     position: relative;
-    padding: 100px 0 130px;
+    padding: 50px 0 50px;
+}
+
+section .description{
+    font-size: 20px; 
+    padding-left:80px; 
+    padding-right:80px;
 }
 
 section .section-title,
