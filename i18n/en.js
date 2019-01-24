@@ -60,5 +60,8 @@
 	"marina-description": "The holiday apartment Costa Azahar II is situated in the valencian city of Oresa del Mar, and has a solarium and swimming pool. It also has private parking and free WIFI.<br> The apartment comes with 2 bedrooms, one with a double bed and another with 2 individual, a kitchen, a bathroom with bathtub and a terrace. The living room has AC, TV and a bed couch. The kitchen is equipped with a washing machine, oven and microwave.<br> Is 5 mins away from the balneary and the infant park.",
 	"sergioylaura-rooms": "200 €/ Night",
 	"virginia-rooms": "200 €/ Night",
-	"marina-rooms": "200 €/ Night"
+	"marina-rooms": "200 €/ Night",
+	"sergioylaura": "House in Villa el Rosal",
+	"virginia": "House in Villa el Rosal",
+	"marinador": "Holiday apartment Costa Azahar II"
 }

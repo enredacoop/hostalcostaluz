@@ -60,5 +60,8 @@
 	"marina-description": "El apartamento vacacional Costa Azahar II, se encuentra en la localidad valenciana de Oropesa del Mar  tiene un solárium y una piscina al aire libre. También dispone de aparcamiento privado y wifi gratuitos.<br>El alojamiento dispone de dos dormitorios uno con cama doble y otro con 2 camas individuales, una cocina, un cuarto de baño con bañera, y una terraza. El salón tiene aire acondicionado, televisión y sofá-cama. La cocina está equipada con lavadora, lavavajillas, horno y microondas.<br>Está a 5 minutos en coche del balneario y del parque infantil.",
 	"sergioylaura-rooms": "200 €/ Noche",
 	"virginia-rooms": "200 €/ Noche",
-	"marina-rooms": "200 €/ Noche"
+	"marina-rooms": "200 €/ Noche",
+	"sergioylaura": "Casa en Villa el Rosal",
+	"virginia": "Casa en Villa el Rosal",
+	"marinador": "Apartamento vacacional Costa Azahar II"
 }
