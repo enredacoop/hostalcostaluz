@@ -53,21 +53,67 @@
 		</div>
 	</header>
 	<section id="description">
-		<div data-i18n="[html]apartamentos-description" class="description">
+		<div data-i18n="[html]sergioylaura-description" class="description">
 Villa el Rosal, está situado en una zona tranquila de localidad costera de Conil de la Frontera, se encuentra a  2km de las playas más representativas como la playa de la  Fontanilla, Los Bateles y Cala del Aceite, también tenemos una parada de autobús en frente. 
 Los chalet del Villa el Rosal son amplios y tienen una decoración rústica. Las casas disponen de dos dormitorios, un baño completamente equipado, un salón- cocina, el cual consta de y el porche con barbacoa. Además consta de una piscina compartida con otra casa más. El salón-cocina tiene microondas, tostadora, lavadora, cafetera y aire acondicionado.
 A menos de 1 km del complejo encontrará un supermercado y a 5 minutos en coche llegará al centro de Conil de la Frontera. Donde podrás encontrar mucha variedad de bares, restaurantes, discotecas y actividades de ocio, entre otros.
 La playa de Palmar está situada a 3 km del complejo. Chiclana de la Frontera está a 20, y Cádiz a 35 minutos en coche.
 
 		</div>
+
+		<div  style="padding-bottom:50px;" class="col-md-12">
+			<h3 style="font-size:30px; padding-top:50px;" class="section-sub-title" data-i18n="rules">Mas información</h3>
+			<div style="padding-right:0px;"class="col-md-6">
+					<ul>
+						<li class="list-group-item"><span data-i18n="[html]rules1-syl">Check-in: a partir de las 16:00 horas</span></li>
+						<li class="list-group-item"><span data-i18n="rules2-syl">No se admiten mascotas</span></li>
+						<li class="list-group-item"><span data-i18n="rules3-syl">Los menores de 2 años se pueden alojar gratis utilizando las camas existentes</span></li>
+					</ul>
+			</div>
+			<div style="padding-left:0px;" class="col-md-6">
+					<ul>
+						<li class="list-group-item"><span data-i18n="[html]rules4-syl">Check-out: hasta las 11:00 horas</span></li>
+						<li class="list-group-item"><span data-i18n="rules5-syl">Capacidad máxima de 4 personas</span></li>
+						<li class="list-group-item"><span data-i18n="rules6-syl">Aparcamiento privado</span></li>
+					</ul>
+			</div>
+		</div>
 	</section>
 	<section id="reservation">
-		<div class="container">
-			<h2 class="section-title" data-i18n="reserve-title">Haz una reserva</h2>
-			<h3 class="section-sub-title" data-i18n="reserve-subtitle"></h3>
+		<div class="container-text">
+			<h2 class="section-title" data-i18n="contact">Contactanos</h2>
+			<h3 class="section-sub-title" data-i18n="contact-subtitle">Estamos a tu disposicion</h3>
 		</div>
 
-		<iframe src="https://conilhospeda.com/embed/hostal-costa-de-la-luz/" width="100%" height="500px" border=0></iframe>
+		<div id="alert-ko" class="alert alert-danger alert-dismissible d-none" role="alert">
+          	No se ha podido enviar el formulario de contacto en estos momentos. Por favor, inténtelo más tarde. Disculpe las molestias.
+         		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div id="alert-ok" class="alert alert-success alert-dismissible d-none" role="alert">
+          	Se ha enviado el formulario de contacto correctamente. Le responderemos lo antes posible. Gracias.
+          		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+      	</div>
+        <form id="form-leanfinance" action="" onsubmit="sendEmail(); return false;">
+            <div class="form-group">
+                <input type="text" id="form-name" placeholder="Escribe tu nombre" class="form-control c-square c-theme input-lg" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="form-email" placeholder="Escribe tu email" class="form-control c-square c-theme input-lg" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="form-phone" placeholder="Escribe tu teléfono" class="form-control c-square c-theme input-lg" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="8" id="form-message" placeholder="Motivo de consulta..." class="form-control c-theme c-square input-lg" required></textarea>
+            </div>
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+	                <input type="checkbox" class="custom-control-input" id="form-check" required>
+	                <label class="custom-control-label" for="form-check">Confirmo que acepto y he leído el <a href="#contacto" data-toggle="modal" data-target="#aviso_legal" target="_blank">aviso legal</a>.</label>
+              </div>
+            </div>
+            <button type="submit" class="form-group btn btn-md c-btn-square c-btn-border-2x c-btn-regular c-btn-uppercase c-btn-bold">Enviar</button> 
+        </form>
 	</section>
 	<section id="gallery" class="gallery-block">
 		<div class="container">
@@ -167,32 +213,26 @@ La playa de Palmar está situada a 3 km del complejo. Chiclana de la Frontera es
 	<section id="room">
 		<div class="container">
 				<div class="row">
-					<div class="col-md-9">
+					<div>
 						<span class="price"><b data-i18n="sergioylaura-rooms">$160 / a Night</b></span>
 						<div id="accordion" class="accordion">
-							<h3><span data-i18n="accordeon1" class="glyphicon glyphicon-glass"> Restaurante </span><span class="accordion-icon"></span></h3>
+							<h3><span data-i18n="accordeon1" class="glyphicon"> Dormitorios </span><span class="accordion-icon"></span></h3>
 							<div class="accordion-container">
-								<p>No incluido</p>
+								<p>Descripcion dormitorios</p>
 							</div>
-							<h3><span data-i18n="accordeon2" class="glyphicon glyphicon-tint"> Baño </span><span class="accordion-icon"></span></h3>
+							<h3><span data-i18n="accordeon2" class="glyphicon"> Cocina </span><span class="accordion-icon"></span></h3>
 							<div class="accordion-container">
-								<p>Se aporta toalla</p>
+								<p>Incluye microondas, tostadora, cafetera y aire acondicionado</p>
 							</div>
-							<h3><span data-i18n="accordeon3" class="glyphicon glyphicon-lamp"> Mobiliario </span><span class="accordion-icon"></span></h3>
+							<h3><span data-i18n="accordeon3" class="glyphicon"> Baño </span><span class="accordion-icon"></span></h3>
 							<div class="accordion-container">
-								<p>Se cobran roturas</p>
+								<p>Descripcion baño</p>
+							</div>
+							<h3><span data-i18n="accordeon4" class="glyphicon"> Piscina </span><span class="accordion-icon"></span></h3>
+							<div class="accordion-container">
+								<p>Compartida con otrs casa</p>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-3">
-						<h3 data-i18n="includes">Incluye</h3>
-						<ul class="list-group room-detail">
-						  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span><span data-i18n="includes1">Mini bar</span></li>
-						  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span><span data-i18n="includes2">High speed WIFI</span></li>
-						  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span><span data-i18n="includes3">Luggage rack</span></li>
-						  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span><span data-i18n="includes4">Bathroom</span></li>
-						  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span><span data-i18n="includes5">Hair dryer</span></li>
-						</ul>
 					</div>
 				</div>
 			</div><!-- /.container -->
@@ -203,10 +243,7 @@ La playa de Palmar está situada a 3 km del complejo. Chiclana de la Frontera es
 				<div class="col-md-3 col-sm-6 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
 					<span class="title" data-i18n="social-media">Siguenos</span>
 					<ul class="social-icons">
-						<li><a class="facebook-icon" href="#"><span>facebook</span></a></li>
-						<li><a class="twitter-icon" href="#"><span>twitter</span></a></li>
-						<li><a class="linkedin-icon" href="#"><span>linkedin</span></a></li>
-						<li><a class="vimeo-icon" href="#"><span>vimeo</span></a></li>
+						<li><a class="facebook-icon" href="https://www.facebook.com/Hostal-Costa-de-la-Luz-578508125585732/"><span>facebook</span></a></li>
 					</ul>
 				</div>
 			</div>

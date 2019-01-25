@@ -1204,7 +1204,7 @@ header {
     border-top: 1px solid #EBEBEB;
     border-bottom: 5px solid #FFF;
     position: relative;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
     z-index: 2;
 }
 
@@ -1235,10 +1235,10 @@ header {
 
 #contact .block-container .maps-container {
     position: absolute;
-    top: -300px;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
     z-index: 1;
 }
 
@@ -3182,3 +3182,140 @@ article #comments button {
     display: block;
 }
 
+.d-none {
+  display: none;
+}
+
+.form-group{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.package .box .economicslider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.package .box .economicslide {
+  display: none;
+}
+
+.package .box .estandarslider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.package .box .estandarslide {
+  display: none;
+}
+
+.package .box .exteriorslider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.package .box .exteriorslide {
+  display: none;
+}
+
+.package .box .familyslider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.package .box .familyslide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.package .box .prev,.package .box .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 0px;
+  padding: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 5px;
+  transition: 0.6s ease;
+  border-radius: 0 1px 1x 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.package .box .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.package .box .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.package .box .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.package .box .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.package .box .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.package .box .active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.package .box .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
