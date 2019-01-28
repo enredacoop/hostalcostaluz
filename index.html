@@ -27,27 +27,17 @@
   </head>
   <body>
 	<nav id="menu-nav" class="menu-nav">
-		<div class="logo-container hidden-xs">
-			<img src="images/logohostalcostaluz.png" alt="Logo" />
-			<h2 style="align-content: right;">648264811</h2>
-		</div>
-
-		<div id="menu-responsive">
-			<span class="logo"><img src="images/mini-logo.png" height="40" alt="Logo" /></span>
-			<span class="button">
-				<span></span>
-				<span></span>
-				<span></span>
-			</span>
-		 </div>
-		 <ul>
-		   <li><a data-i18n="package-menu" data-link="#package" href="#">Habitaciones disponibles</a></li>
-		   <li><a data-i18n="houses-menu" data-link="#houses" href="#">Casas disponibles</a></li>
-		   <li><a data-i18n="reservation-menu" data-link="#reservation" href="#">Reservas</a></li>
-		   <li><a data-i18n="gallery-menu" data-link="#gallery" href="#">Galeria</a></li>
-		   <li><a data-i18n="contact-menu" data-link="#contact" href="#">Contacto</a></li>
-           <li class="switch-locale"><a href="#" data-locale="en">EN</a></li>
-           <li class="switch-locale"><a href="#" data-locale="es">ES</a></li>
+		 <ul style="padding: 0 0 0 100px;">
+		    <img class="logo-size logo-line" src="images/LOGOTIPO 2018.jpg" alt="Logo" />
+		    <li><a data-i18n="package-menu" data-link="#package" href="#">Habitaciones</a></li>
+		    <li><a data-i18n="houses-menu" data-link="#houses" href="#">Casas</a></li>
+		    <li><a data-i18n="reservation-menu" data-link="#reservation" href="#">Reservas</a></li>
+		    <li><a data-i18n="gallery-menu" data-link="#gallery" href="#">Galeria</a></li>
+		    <li><a data-i18n="contact-menu" data-link="#contact" href="#">Contacto</a></li>
+		    <li><a data-link="#conil" href="#">Conil</a></li>
+		    <li style="left: 80px"><h5 style="align-content: right;">648264811</h5></li>
+            <li class="language-line switch-locale"><a href="#" data-locale="es"><img class="language" src="images/spain-162428_640.png"/></a></li>
+            <li class="language-line switch-locale"><a href="#" data-locale="en"><img class="language" src="images/union-jack-1027898_640.jpg"/></a></li>
 		</ul>
 	</nav>
 	<div class="slider" id="top">
@@ -64,11 +54,14 @@
 			</div>
 		</div> <!-- /.slide -->
 		<div class="slide" id="img4"><img style='height:100%;width:100%' src="images/hostalcostaluz/XXXX (49).jpeg"/>
-			<div class="slidecontent">
+			<div class="slidecontent">	
 			</div>
 		</div> <!-- /.slide -->
 	</div> <!-- /.slider -->
 	<section id="description">
+		<div class="container"> 
+			<h2 class="section-title">HOSTAL COSTA LUZ</h2>
+		</div>
 		<div data-i18n="hostal-description" class="description">
 
 En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de playa, el ambiente, la calma, la vida de Conil y su historia. Todo junto y con el mejor servicio, prestado con atención y cercanía. Disponemos de trece habitaciones dobles totalmente equipadas para su máxima comodidad, donde podrá descansar con pleno confort durante su estancia en Conil, la cual intentaremos que sea inolvidable. Todas las habitaciones disponen de aire acondicionado, televisor con pantalla plana, cuarto de baño, secador, caja fuerte, minibar y wifi gratis. Aquí no se le escapará ninguno de los secretos de Conil, sus alrededores y toda la Costa de la Luz, ya que en recepción tendrá un amplio abanico de información turística. A su alrededor hay cafeterías, restaurantes, pubs, supermercados, tiendas... Conocemos a fondo nuestro pueblo, y eso nos hace especiales. Mantenemos, como siempre, la gestión familiar, con la cercanía en el servicio, la amabilidad y la limpieza como sellos característicos.
@@ -94,7 +87,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 	<section id="package">
 		<div class="container"> 
 			<h2 class="section-title" data-i18n="package-title">Paquetes disponibles</h2>
-			<h3 class="section-sub-title" data-i18n="package-subtitle"></h3>
 		</div>
 		<div class="container">
 			<div class="row">
@@ -112,7 +104,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 					</div>
 					<span data-i18n="economic">Economica</span></span>
 					<span class="text" data-i18n="economic-description">Habitaciones interiores con cama matrimonio o dos camas en planta baja, con vistas a un patio sevillano</span>
-					<span class="text"><b>100 €</b></span>
 					<button type="button" onclick = 'window.location.href="https://conilhospeda.com/hostal-costa-de-la-luz/"' class="btn btn-reverse"><span class="glyphicon glyphicon-ok"></span><span class="hidden-xs" data-i18n="offer-button"></span></button>
 				  </div>
 			  </div>
@@ -130,7 +121,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 					</div>
 					<span data-i18n="estandar">Estandar</span></span>
 					<span class="text" data-i18n="estandar-description">Habitaciones interiores con dos camas o cama de matrimonio, en primera y segunda planta</span>
-					<span class="text"><b>100 €</b></span>
 					<button type="button" onclick = "window.location.href='https://conilhospeda.com/hostal-costa-de-la-luz/'" class="btn btn-reverse"><span class="glyphicon glyphicon-ok"></span><span class="hidden-xs" data-i18n="offer-button"></span></button>
 				  </div>
 			  </div>
@@ -147,7 +137,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 					</div>
 					<span data-i18n="exterior">Exterior</span></span>
 					<span class="text" data-i18n="exterior-description">Habitaciones exteriores de dos camas o cama matrimonio, en primera o segunda planta</span>
-					<span class="text"><b>100 €</b></span>
 					<button type="button" onclick = "window.location.href='https://conilhospeda.com/hostal-costa-de-la-luz/'" class="btn btn-reverse"><span class="glyphicon glyphicon-ok"></span><span class="hidden-xs" data-i18n="offer-button"></span></button>
 				  </div>
 			  </div>
@@ -165,7 +154,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 					</div>
 					<span data-i18n="family">Familiar</span></span>
 					<span class="text" data-i18n="family-description">Habitación para 4 personas</span>
-					<span class="text"><b>100 €</b></span>
 					<button type="button" onclick = "window.location.href='https://conilhospeda.com/hostal-costa-de-la-luz/'" class="btn btn-reverse"><span class="glyphicon glyphicon-ok"></span><span class="hidden-xs" data-i18n="offer-button"></span></button>
 				  </div>
 			  </div>
@@ -176,15 +164,15 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 	<section id="houses">
 		<div class="container"> 
 			<h2 class="section-title" data-i18n="houses-title">Casas disponibles</h2>
-			<h3 class="section-sub-title" data-i18n="houses-subtitle"></h3>
 		</div>
 		<div class="container">
 			<div class="row">
 			  <div class="col-md-4">
 				  <div class="box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-					<span class="title"><img style='height:184px;width:100%' src="images/SERGIO Y LAURA/CASA SERGIO Y LAURA (14).jpg" alt="img sample" /><span data-i18n="sergiolaura-menu"> Casa Sergio y Laura</span></span>
+					<span class="title">
+					<img style='height:184px;width:100%' src="images/SERGIO Y LAURA/CASA SERGIO Y LAURA (14).jpg" alt="img sample" />
+					<span data-i18n="sergiolaura-menu"> Casa Sergio y Laura</span></span>
 					<span class="text" data-i18n="sergioylaura">Habitaciones interiores con cama matrimonio o dos camas en planta baja, con vistas a un patio sevillano</span>
-					<span class="text"><b>100 €</b></span>
 					<button type="button" onclick = 'window.location.href="casasergiolaura.html"' class="btn btn-reverse"><span class="glyphicon glyphicon-ok"></span><span class="hidden-xs" data-i18n="info-button"></span></button>
 				  </div>
 			  </div>
@@ -192,7 +180,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 				  <div class="box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.4s">
 					<span class="title"><img style='height:184px;width:100%' src="images/VIRGINIA/casa rural (23).jpg" alt="img sample" /><span data-i18n="virginia-menu">Casa Virginia</span></span>
 					<span class="text" data-i18n="virginia">Habitaciones interiores con dos camas o cama de matrimonio, en primera y segunda planta</span>
-					<span class="text"><b>100 €</b></span>
 					<button type="button" onclick = "window.location.href='casavirginia.html'" class="btn btn-reverse"><span class="glyphicon glyphicon-ok"></span><span class="hidden-xs" data-i18n="info-button"></span></button>
 				  </div>
 			  </div>
@@ -200,7 +187,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 				  <div class="box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 					<span class="title"><img style='height:184px;width:100%' src="images/MARINA DOR/580_592ec39b7f46885c43e42ca2926a95cd_s[1].jpg" alt="img sample" /><span data-i18n="marina-menu">Marina d'Or</span></span>
 					<span class="text" data-i18n="marinador">Habitaciones exteriores de dos camas o cama matrimonio, en primera o segunda planta</span>
-					<span class="text"><b>100 €</b></span>
 					<button type="button" onclick = "window.location.href='marinador.html'" class="btn btn-reverse"><span class="glyphicon glyphicon-ok"></span><span class="hidden-xs" data-i18n="info-button"></span></button>
 				  </div>
 			  </div>
@@ -222,7 +208,6 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 	<section id="gallery" class="gallery-block">
 		<div class="container">
 			<h2 class="section-title" data-i18n="gallery-title">Galeria</h2>
-			<h3 class="section-sub-title" data-i18n="gallery-subtitle">Subtitulo</h3>
 		</div>
 		<div class="row">
 			<!-- first-columnn  -->
@@ -255,8 +240,8 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 					</a>
 				  </div>
 				  <div class="col-sm-4 col-md-4">
-					<a href="images/hostalcostaluz/Exterior/XXXX (39).jpeg" data-lightbox="gallery" data-title="My caption" class="image-gallery wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.4s">
-					  <img style='height:450px;width:100%' src="images/hostalcostaluz/Exterior/XXXX (39).jpeg" class="img-responsive" alt="img Sample" />
+					<a href="images/hostalcostaluz/Familiar/XXXX (39).jpeg" data-lightbox="gallery" data-title="My caption" class="image-gallery wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.4s">
+					  <img style='height:450px;width:100%' src="images/hostalcostaluz/Familiar/XXXX (39).jpeg" class="img-responsive" alt="img Sample" />
 					  <span class="cover"><span class="icon-view">+</span></span>
 					  <span class="border-cover"></span>
 					</a>
@@ -334,15 +319,15 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<a href="#" class="icon-container">
+							<a class="icon-container">
 								<span class="icon glyphicon glyphicon-earphone"></span>
 								956 44 40 81
 							</a>
-							<a href="#" class="icon-container">
+							<a class="icon-container">
 								<span class="icon glyphicon glyphicon-earphone"></span>
 								648264811
 							</a>
-							<a href="#" class="icon-container">
+							<a class="icon-container">
 								<span class="icon glyphicon glyphicon-send"></span>
 								h.costadelaluz@telefonica.net
 							</a>
@@ -458,6 +443,7 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
       });
     </script>
 	<script type="text/javascript">
+
 		var slideIndex = 1;
 		showSlides(slideIndex);
 		showSlides2(slideIndex);

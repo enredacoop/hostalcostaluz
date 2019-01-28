@@ -78,6 +78,7 @@
 body {
     overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
+    background-color: #F5F5DC;
     color: #333333;
     font-size: 16px;
     font-weight: 300;
@@ -402,8 +403,7 @@ section {
 
 section .description{
     font-size: 20px; 
-    padding-left:80px; 
-    padding-right:80px;
+    padding:40px 80px 0 80px;
 }
 
 section .section-title,
@@ -791,6 +791,7 @@ header {
 /*-------------------------------------------------------------------------------*/
 
 #package .box {
+    background-color: white;
     position: relative;
     border: 1px solid #E5E5E5;
     margin-top: 110px;
@@ -933,6 +934,7 @@ header {
 }
 
 #houses .box {
+    background-color: white;
     position: relative;
     border: 1px solid #E5E5E5;
     margin-top: 110px;
@@ -3318,4 +3320,26 @@ article #comments button {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.language{
+
+    height:20px;
+    width:30px;
+}
+
+
+
+.logo-size{
+    height:55px;    
+    width:200px;
+    float:left;
+}
+
+.language-line{
+    float:right;
+}
+
+.menu-ul{
+    padding: 0 45px;
 }
