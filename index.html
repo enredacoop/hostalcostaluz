@@ -25,7 +25,7 @@
     <![endif]-->
 
   </head>
-  <body>
+  <body ondragstart="return false;">
 	<nav id="menu-nav" class="menu-nav">
 		 <ul style="padding: 0 0 0 100px;">
 		    <img class="logo-size logo-line" src="images/LOGOTIPO 2018.jpg" alt="Logo" />
@@ -335,7 +335,7 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 					</div>
 				</div>
 			</div>
-			<div class="maps-container wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.4s" id="map-canvas"></div>
+
 			<!--<div class="form-container">
 				<div class="container">
 					<div class="row">
@@ -364,6 +364,9 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 					</div>
 				</div>
 			</div>-->
+		</div>
+		<div class="maps-container wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.4s" id="map-canvas">
+			<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCqn1seDEQfKMNefp-PZXd7cHv0b2NkNzo&q=Hostal+Costa+de+la+Luz+Calle+Pascual+Junquera,Conil+de+la+Frontera+Cádiz" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</section>
 	<footer id="footer-page">
@@ -399,7 +402,7 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 	<script src="script/jquery.simpleslider.package.min.js"></script><!-- Include the slider scripts -->
 	<script src="script/backstretch.min.js"></script><!-- Include the slider scripts -->
 	<script src="script/jquery.scrollTopAll.min.js"></script><!-- ScrolloTop -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqn1seDEQfKMNefp-PZXd7cHv0b2NkNzo&maptype=roadmap&sensor=false"></script><!-- Google Maps-->
+	<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqn1seDEQfKMNefp-PZXd7cHv0b2NkNzo&maptype=roadmap&sensor=false"></script>Google Maps-->
 	<script src="script/gmaps.min.js"></script><!-- Google Maps-->
 	<script src="script/custom.js"></script><!-- Include Custom scripts -->
 
@@ -521,6 +524,7 @@ En Conil le espera una maravillosa estancia. Puede disfrutar de sus 11 km de pla
 		  }
 		  slides[slideIndex-1].style.display = "block";
 		}
+
 	</script>
 	</body>
 </html>

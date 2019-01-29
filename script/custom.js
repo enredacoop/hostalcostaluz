@@ -49,12 +49,12 @@
 
 		var options = {
 			slides: '.slide',                 /* The name of a slide in the slidesContainer */
-			swipe: false,                     /* Add possibility to Swipe > note that you have to include touchSwipe for this */
+			swipe: true,                     /* Add possibility to Swipe > note that you have to include touchSwipe for this */
 			transition: "slide",              /* Accepts "slide" and "fade" for a slide or fade transition */
 			slideTracker: true,               /* Add a UL with list items to track the current slide */
 			slideTrackerID: 'slideposition',  /* The name of the UL that tracks the slides */
-			slideOnInterval: false,           /* Slide on interval */
-			interval: 9000,                   /* Interval to slide on if slideOnInterval is enabled */
+			slideOnInterval: true,           /* Slide on interval */
+			interval: 4000,                   /* Interval to slide on if slideOnInterval is enabled */
 			animateDuration: 1000,            /* Duration of an animation */
 			pauseOnHover: false,              /* Pause when user hovers the slide container */
 			magneticSwipe: true,              /* This will attach the slides to the mouse's position when swiping/dragging */
