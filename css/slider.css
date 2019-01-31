@@ -1,3 +1,15 @@
+/*-------------------------------------------------------------------------------*/
+/*                                                                               */
+/*    1.1 COLORS / VARIABLES                                                     */
+/*                                                                               */
+/*-------------------------------------------------------------------------------*/
+:root {
+    --primary:      #f9d300;
+    --dark:         rgba(0,0,0,0.8);
+    --light:        #efefef;
+}
+
+
 
 /*-------------------------------------------------------------------------------*/
 /*                                                                               */
@@ -84,6 +96,9 @@ html,body{
     overflow: hidden;
     padding: 0;
     width: 50px;
+}
+#slideposition ul li.indicator:hover {
+	background: var(--primary);
 }
 
 #slideposition ul li.indicator.active {
@@ -187,8 +202,8 @@ html,body{
 }
 
 #slideposition ul li.indicator {
-    background: none;
-	border: 1px solid #FFF;
+    border: none;
+    background: rgba(255,255,255,0.33);
     cursor: pointer;
     display: inline-block;
     height: 8px;

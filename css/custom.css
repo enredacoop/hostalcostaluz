@@ -2,10 +2,12 @@
 
     Theme Name: THREELEAVES - Responsive Hotel Template
     Author: Poporoso
+    Editor: ENREDA
     Support: c.birrillo@gmail.com
     Created: 21/02/2014
+    Modificated: 31/01/2019
     Description: THREELEAVES is the perfect template for hotel / motel / resort or travel websites and of course you can use this theme for any kind of business websites.
-    Version: 1.1
+    Version: 1.2
     Tags: Booking, Hotel, Accommodation, Resort, Spa, Travel, B&B, Hostel, Lodge, Modern, Holiday, Motel, Inn, Vacation, Responsive, Bootstrap
 
     ===============================================================
@@ -14,6 +16,7 @@
 
     1 GENERAL STYLING
     --------------------------------
+       1.1 COLORS - VARIABLES
        1.2 BASIC - TYPOGRAFY STYLE
        1.3 SPINNER
        1.4 DATEPICKER
@@ -69,6 +72,17 @@
 
 /*-------------------------------------------------------------------------------*/
 /*                                                                               */
+/*    1.1 COLORS / VARIABLES                                                     */
+/*                                                                               */
+/*-------------------------------------------------------------------------------*/
+:root {
+    --primary:      #f9d300;
+    --dark:         rgba(0,0,0,0.8);
+    --light:        #efefef;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*                                                                               */
 /*    1.2 BASIC / TYPOGRAFY STYLE                                                */
 /*                                                                               */
 /*-------------------------------------------------------------------------------*/
@@ -78,11 +92,12 @@
 body {
     overflow-x: hidden;
     font-family: "Open Sans", sans-serif;
-    background-color: #F5F5DC;
+    /*background-color: #F5F5DC;*/
     color: #333333;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
+    font-size: 15px;
 }
 
 a {
@@ -228,6 +243,7 @@ label {
 .top-button .icon-top:hover,
 .top-button .icon-top:focus {
     background-color: rgba(51, 51, 51, 0.8);
+    color: var(--primary);
 }
 
 .dist-section-right {
@@ -255,6 +271,14 @@ label {
     border-color: #05a0a6;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.3);
     outline: 0 none;
+}
+
+.bl-primary {
+    border-left: 6px solid var(--primary);
+}
+
+.mb-50 {
+    margin-bottom: 50px;
 }
 
 /*-------------------------------------------------------------------------------*/
@@ -398,12 +422,12 @@ label {
 
 section {
     position: relative;
-    padding: 50px 0 50px;
+    padding: 80px 0px;
 }
 
 section .description{
-    font-size: 20px; 
-    padding:40px 80px 0 80px;
+    font-size: 15px; 
+    padding:40px 5px 0 5px;
 }
 
 section .section-title,
@@ -415,8 +439,6 @@ section .section-title {
     font-size: 40px;
     font-family: "Philosopher", sans-serif;
     display: block;
-    -webkit-filter: drop-shadow(1px 1px 2px rgba(153, 153, 153, 0.5));
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=@val2, OffY=@val3, Color=@color)";
 }
 
 section .rooms-title {
@@ -424,8 +446,6 @@ section .rooms-title {
     text-align: center;
     font-family: "Philosopher", sans-serif;
     display: block;
-    -webkit-filter: drop-shadow(1px 1px 2px rgba(153, 153, 153, 0.5));
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=@val2, OffY=@val3, Color=@color)";
     padding-bottom: 50px;
 }
 
@@ -433,15 +453,18 @@ section .rooms-title {
 section .section-sub-title {
     display: block;
     font-size: 20px;
-    -webkit-filter: drop-shadow(1px 1px 1px rgba(204, 204, 204, 0.5));
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=@val2, OffY=@val3, Color=@color)";
     padding-bottom: 30px;
+    color: #a9a9a9;
 }
 
 .section-grey {
-    background-color: #06d0d8;
+    /*background-color: #06d0d8;*/
     background-color: #efefef;
 }
+.section-primary {
+    background-color: var(--primary);
+}
+
 
 /*-------------------------------------------------------------------------------*/
 /*                                                                               */
@@ -618,8 +641,8 @@ nav.menu-nav > ul .menu-nav > ul .submenu.menu-active {
 /*-------------------------------------------------------------------------------*/
 
 #footer-page {
-    background-color: #6c6e6c;
-    color: #FFF;
+    background-color: var(--primary);
+    color: var(--dark);
     padding-top: 20px;
     padding-bottom: 0;
 }
@@ -675,9 +698,10 @@ nav.menu-nav > ul .menu-nav > ul .submenu.menu-active {
 }
 
 #footer-page ul.social-icons li a {
-    background: url(../images/social-icon.png) no-repeat scroll center center #ffffff;
-    width: 50px;
-    height: 50px;
+    background: url(../images/social-icon.png) no-repeat scroll center center rgba(0,0,0,0.13);
+    background-size: 135px;
+    width: 30px;
+    height: 30px;
     overflow: hidden;
     position: relative;
     margin: 0 10px 20px 0;
@@ -698,12 +722,14 @@ nav.menu-nav > ul .menu-nav > ul .submenu.menu-active {
 }
 
 #footer-page ul.social-icons li a.facebook-icon {
-    background-position: -164px -8px;
+    background-position: -65px 3px;
 }
 
 #footer-page ul.social-icons li a.facebook-icon:hover {
-    background-position: -164px -61px;
-    background-color: #3b5998;
+    /*background-position: -164px -61px;
+    background-color: #3b5998;*/
+    background-position: -65px 3px;
+    background-color: white;
 }
 
 #footer-page ul.social-icons li a.linkedin-icon {
@@ -740,8 +766,8 @@ nav.menu-nav > ul .menu-nav > ul .submenu.menu-active {
 }
 
 #footer-page .credits {
-    background-color: #555555;
-    color: #AAA;
+    background-color: rgba(0,0,0,0.13);
+    color: var(--dark);
     font-size: 14px;
     margin: 24px 0 0;
     padding: 16px;
@@ -794,7 +820,7 @@ header {
     background-color: white;
     position: relative;
     border: 1px solid #E5E5E5;
-    margin-top: 110px;
+    margin-top: 50px;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -842,15 +868,24 @@ header {
 
 #package .box .title span {
     text-transform: uppercase;
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
     display: block;
     padding: 10px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     font-weight: 400;
+    margin-top: 22px;
+    font-size: 17px;
+    background: rgba(0,0,0,0.03);
+    border-top: 1px solid #E6E6E6;
 }
 
 #package .box .text {
     padding: 20px 10px;
+    height: 120px;
+}
+@media (max-width: 992px) {
+    #package .box .text {
+        height: auto;
+    }
 }
 
 #package .box .detail {
@@ -921,7 +956,7 @@ header {
     width: 100%;
     border: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     -webkit-border-radius: 0;
     -khtml-border-radius: 0;
     -moz-border-radius: 0;
@@ -937,7 +972,7 @@ header {
     background-color: white;
     position: relative;
     border: 1px solid #E5E5E5;
-    margin-top: 110px;
+    margin-top: 50px;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -985,11 +1020,14 @@ header {
 
 #houses .box .title span {
     text-transform: uppercase;
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
     display: block;
     padding: 10px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     font-weight: 400;
+    margin-top: 0px;
+    font-size: 17px;
+    background: rgba(0,0,0,0.03);
+    /*border-top: 1px solid #E6E6E6;*/
 }
 
 #houses .box .text {
@@ -1064,7 +1102,7 @@ header {
     width: 100%;
     border: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     -webkit-border-radius: 0;
     -khtml-border-radius: 0;
     -moz-border-radius: 0;
@@ -1199,12 +1237,14 @@ header {
 #contact .block-container {
     position: relative;
     overflow: hidden;
+    background: var(--dark);
+    padding: 10px 0px;
 }
 
 #contact .block-container .box-header {
-    background-color: rgba(255, 255, 255, 0.8);
+    /*background-color: rgba(255, 255, 255, 0.8);
     border-top: 1px solid #EBEBEB;
-    border-bottom: 5px solid #FFF;
+    border-bottom: 5px solid #FFF;*/
     position: relative;
     z-index: 2;
 }
@@ -1214,7 +1254,7 @@ header {
     text-align: center;
     width: 33.3333%;
     padding: 10px 0;
-    color: #333;
+    color: white;
     text-decoration: none;
     margin-top: 4px;
     -webkit-transition: all 0.4s ease-in-out;
@@ -1230,8 +1270,17 @@ header {
 
 #contact .block-container .box-header .icon-container .icon {
     display: block;
-    font-size: 35px;
+    font-size: 25px;
     padding: 10px 0;
+    color: white;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#contact .block-container .box-header .icon-container:hover .icon {
+    color: var(--dark);
 }
 
 #contact .block-container .maps-container {
@@ -1460,17 +1509,28 @@ header {
 
 #reservation {
     color: black;
-    text-shadow: 3px 1px white;
+    /*text-shadow: 3px 1px white;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 0px;
 }
 
 #reservation button {
     margin-top: 30px;
     width: 100%;
     padding: 12px 0;
+}
+
+#reservation iframe.iframe-reserva {
+    border: none;
+    height: 420px;
+}
+@media (max-width: 992px) {
+    #reservation iframe.iframe-reserva {
+        height: 535px;
+    }
 }
 
 /*-------------------------------------------------------------------------------*/
@@ -1583,15 +1643,15 @@ header {
 }
 
 .gallery-block .image-gallery .cover .icon-view {
-    border: 7px solid #FFF;
-    width: 60px;
-    height: 60px;
+    border: 2px solid #FFF;
+    width: 35px;
+    height: 35px;
     color: #FFF;
     margin-top: -30px;
     display: block;
     margin-left: -30px;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 33px;
     font-weight: 700;
     text-align: center;
     position: absolute;
@@ -2589,6 +2649,17 @@ article #comments button {
 #gallery-page .single-images {
     margin-bottom: 30px;
 }
+.prev, .next {
+    padding: 10px 15px 13px 15px;
+    top: 10px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px;
+}
+    .prev:hover, .next:hover {
+        background-color: var(--primary) !important;
+        color: white;
+    }
 
 /*-------------------------------------------------------------------------------*/
 /*                                                                               */
@@ -3195,6 +3266,14 @@ article #comments button {
 
 * {box-sizing:border-box}
 
+.economicslide img,
+.estandarslide img,
+.exteriorslide img,
+.familyslider img,
+.title img {
+    object-fit: cover;
+}
+
 /* Slideshow container */
 .package .box .economicslider {
   max-width: 1000px;
@@ -3330,9 +3409,9 @@ article #comments button {
 
 
 .logo-size{
-    height:55px;    
-    width:200px;
-    float:left;
+    height: 50px;
+    width: 200px;
+    float: left;
 }
 
 .language-line{

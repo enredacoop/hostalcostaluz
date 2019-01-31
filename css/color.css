@@ -1,4 +1,16 @@
 /*-------------------------------------------------------------------------------*/
+/*                                                                               */
+/*    1.1 COLORS / VARIABLES                                                     */
+/*                                                                               */
+/*-------------------------------------------------------------------------------*/
+:root {
+    --primary:      #f9d300;
+    --dark:         rgba(0,0,0,0.8);
+    --light:        #efefef;
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*    1.2 BASIC / TYPOGRAFY STYLE                                                */
 /*-------------------------------------------------------------------------------*/
 
@@ -79,9 +91,11 @@ a.active {
 .btn-reverse:active,
 .btn-reverse:focus,
 .btn-reverse:hover {
-    background-color: #f9d300;
+    /*background-color: #f9d300;*/
     border-color: #dab900;
-    color: #333333;
+    /*color: #333333;*/
+    background-color: var(--dark);
+    color: var(--primary);
 }
 
 /*-------------------------------------------------------------------------------*/
@@ -145,8 +159,13 @@ nav.menu-nav > ul .menu-active {
 /*        2.5 HOME CONTACT STYLE                                                 */
 /*-------------------------------------------------------------------------------*/
 
+#contact .block-container .box-header .icon-containe {
+    color: white;
+}
 #contact .block-container .box-header .icon-container:hover {
-    background-color: rgba(249, 211, 0, 0.7);
+    /*background-color: rgba(249, 211, 0, 0.7);*/
+    background-color: var(--primary);
+    color: var(--dark);
 }
 
 /*-------------------------------------------------------------------------------*/
