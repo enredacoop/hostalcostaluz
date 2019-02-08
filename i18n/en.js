@@ -30,7 +30,7 @@
 	"adults": "Adults",
 	"reserve": "Reserve Now",
 	"gallery-title": "GALLERY",
-	"gallery-subtitle": "Subtitulo",
+	"gallery-subtitle": "Our house in images",
 	"contact": "CONTACT US",
 	"contact-subtitle": "We are here to help",
 	"message-button": "Send",

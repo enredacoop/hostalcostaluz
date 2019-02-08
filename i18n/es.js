@@ -30,7 +30,7 @@
 	"adults": "Adultos",
 	"reserve": "Reservar",
 	"gallery-title": "GALERÍA",
-	"gallery-subtitle": "Subtitulo",
+	"gallery-subtitle": "Nuestra casa en imágenes",
 	"contact": "CONTÁCTANOS",
 	"contact-subtitle": "Estamos a tu disposición",
 	"message-button": "Enviar",

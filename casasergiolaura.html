@@ -26,12 +26,20 @@
 
   </head>
   <body>
-	<nav class="menu-nav">
+	<nav id="menu-nav" class="menu-nav">
 		 <ul style="padding: 0 0 0 100px;">
-			<img class="logo-size logo-line" src="images/logo_menu.png" />
-			<li style="left:-35px;"><a href="index.html">Home</a></li>
-			<li class="language-line switch-locale"><a href="#" data-locale="es"><img class="language" src="images/spain.png"/></a></li>
-            <li class="language-line switch-locale"><a href="#" data-locale="en"><img class="language" src="images/union-jack.jpg"/></a></li>
+		    <a href="index.html"><img class="logo-size logo-line" src="images/logo_menu.png" /></a>
+		    <li><a data-i18n="package-menu" href="index.html#package">Habitaciones</a></li>
+		    <li><a data-i18n="houses-menu" href="index.html#houses">Casas</a></li>
+		    <li><a data-i18n="reservation-menu" href="index.html#reservation">Reservas</a></li>
+		    <li><a data-i18n="gallery-menu" data-link="#gallery" href="#">Galeria</a></li>
+		    <li><a data-i18n="contact-menu" data-link="#reservation" href="#">Contacto</a></li>
+		    <li><a data-link="#conil" href="#">Conil</a></li>
+		    <li style="left: 80px"><h5 style="align-content: right;">648264811</h5></li>
+        <li class="language-line switch-locale"><a href="#" data-locale="es"><img class="language" src="images/spain.png"/></a></li>
+        <li class="language-line switch-locale"><a href="#" data-locale="en"><img class="language" src="images/union-jack.jpg"/></a></li>
+				<li><a href="#" class="top-button show"><span class="icon-top glyphicon glyphicon-chevron-up"></span></a></li>
+
 		</ul>
 	</nav>
 	<!-- Full Header -->
@@ -41,70 +49,65 @@
 		</div>
 	</header>
 	<section id="description" class="section-grey">
-		<div class="row">
-			<div class="col-sm-12 col-md-6">
-				<div data-i18n="[html]sergioylaura-description" class="description">
-					Villa el Rosal, está situado en una zona tranquila de localidad costera de Conil de la Frontera, se encuentra a  2km de las playas más representativas como la playa de la  Fontanilla, Los Bateles y Cala del Aceite, también tenemos una parada de autobús en frente. 
-					Los chalet del Villa el Rosal son amplios y tienen una decoración rústica. Las casas disponen de dos dormitorios, un baño completamente equipado, un salón- cocina, el cual consta de y el porche con barbacoa. Además consta de una piscina compartida con otra casa más. El salón-cocina tiene microondas, tostadora, lavadora, cafetera y aire acondicionado.
-					A menos de 1 km del complejo encontrará un supermercado y a 5 minutos en coche llegará al centro de Conil de la Frontera. Donde podrás encontrar mucha variedad de bares, restaurantes, discotecas y actividades de ocio, entre otros.
-					La playa de Palmar está situada a 3 km del complejo. Chiclana de la Frontera está a 20, y Cádiz a 35 minutos en coche.
-
+		<div class="container"> 
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<h2 class="section-title" data-i18n="sergioylaura"></h2>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-6">
-				<div class="description">
-					<ul>
-						<li class="list-group-item bl-primary"><span data-i18n="[html]rules1-syl"></span></li>
-						<li class="list-group-item bl-primary"><span data-i18n="[html]rules4-syl"></span></li>
-						<li class="list-group-item"><span data-i18n="rules2-syl"></span></li>
-						<li class="list-group-item"><span data-i18n="rules3-syl"></span></li>
-						<li class="list-group-item"><span data-i18n="rules5-syl"></span></li>
-						<li class="list-group-item"><span data-i18n="rules6-syl"></span></li>
-					</ul>
+			<div class="row">
+				<div class="col-sm-12 col-md-6">
+					<div data-i18n="[html]sergioylaura-description" class="description">
+						Villa el Rosal, está situado en una zona tranquila de localidad costera de Conil de la Frontera, se encuentra a  2km de las playas más representativas como la playa de la  Fontanilla, Los Bateles y Cala del Aceite, también tenemos una parada de autobús en frente. 
+						Los chalet del Villa el Rosal son amplios y tienen una decoración rústica. Las casas disponen de dos dormitorios, un baño completamente equipado, un salón- cocina, el cual consta de y el porche con barbacoa. Además consta de una piscina compartida con otra casa más. El salón-cocina tiene microondas, tostadora, lavadora, cafetera y aire acondicionado.
+						A menos de 1 km del complejo encontrará un supermercado y a 5 minutos en coche llegará al centro de Conil de la Frontera. Donde podrás encontrar mucha variedad de bares, restaurantes, discotecas y actividades de ocio, entre otros.
+						La playa de Palmar está situada a 3 km del complejo. Chiclana de la Frontera está a 20, y Cádiz a 35 minutos en coche.
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<div class="description">
+						<ul>
+							<li class="list-group-item bl-primary"><span data-i18n="[html]rules1-syl"></span></li>
+							<li class="list-group-item bl-primary"><span data-i18n="[html]rules4-syl"></span></li>
+							<li class="list-group-item"><span data-i18n="rules2-syl"></span></li>
+							<li class="list-group-item"><span data-i18n="rules3-syl"></span></li>
+							<li class="list-group-item"><span data-i18n="rules5-syl"></span></li>
+							<li class="list-group-item"><span data-i18n="rules6-syl"></span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="reservation">
-		<div class="container-text">
-			<h2 class="section-title" data-i18n="contact">Contactanos</h2>
-			<h3 class="section-sub-title" data-i18n="contact-subtitle">Estamos a tu disposicion</h3>
-		</div>
-
-		<div id="alert-ko" class="alert alert-danger alert-dismissible d-none" role="alert">
-          	No se ha podido enviar el formulario de contacto en estos momentos. Por favor, inténtelo más tarde. Disculpe las molestias.
-         		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-        </div>
-        <div id="alert-ok" class="alert alert-success alert-dismissible d-none" role="alert">
-          	Se ha enviado el formulario de contacto correctamente. Le responderemos lo antes posible. Gracias.
-          		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-      	</div>
-        <form id="form-leanfinance" action="" onsubmit="sendEmail(); return false;">
-            <div class="form-group">
-                <input type="text" id="form-name" placeholder="Escribe tu nombre" class="form-control c-square c-theme input-lg" required>
-            </div>
-            <div class="form-group">
-                <input type="email" id="form-email" placeholder="Escribe tu email" class="form-control c-square c-theme input-lg" required>
-            </div>
-            <div class="form-group">
-                <input type="text" id="form-phone" placeholder="Escribe tu teléfono" class="form-control c-square c-theme input-lg" required>
-            </div>
-            <div class="form-group">
-                <textarea rows="8" id="form-message" placeholder="Motivo de consulta..." class="form-control c-theme c-square input-lg" required></textarea>
-            </div>
-            <div class="form-group">
-              <div class="custom-control custom-checkbox">
-	                <input type="checkbox" class="custom-control-input" id="form-check" required>
-	                <label class="custom-control-label" for="form-check">Confirmo que acepto y he leído el <a href="#contacto" data-toggle="modal" data-target="#aviso_legal" target="_blank">aviso legal</a>.</label>
-              </div>
-            </div>
-            <button type="submit" class="form-group btn btn-md c-btn-square c-btn-border-2x c-btn-regular c-btn-uppercase c-btn-bold">Enviar</button> 
-        </form>
+	<section id="room">
+		<div class="container">
+				<div class="row">
+						<div id="accordion" class="accordion">
+							<h3><span data-i18n="accordeon1"> Dormitorios </span><span class="accordion-icon"></span></h3>
+							<div class="accordion-container">
+								<p data-i18n="accordion-syl-bed">Un dormitorio con una cama de 1'35 cm y otro con dos camas de 90 cm cada una.</p>
+							</div>
+							<h3><span data-i18n="accordeon2"> Cocina </span><span class="accordion-icon"></span></h3>
+							<div class="accordion-container">
+								<p data-i18n="accordion-syl-kit">Incluye microondas, tostadora, cafetera, lavadora y aire acondicionado.</p>
+							</div>
+							<h3><span data-i18n="accordeon3"> Baño </span><span class="accordion-icon"></span></h3>
+							<div class="accordion-container">
+								<p data-i18n="accordion-syl-bath">Incluye placa de ducha, lavabo, bidé y WC.</p>
+							</div>
+							<h3><span data-i18n="accordeon4"> Piscina </span><span class="accordion-icon"></span></h3>
+							<div class="accordion-container">
+								<p data-i18n="accordion-syl-swim">Dispone de tumbonas y piscina compartida.</p>
+							</div>
+						</div>
+				</div>
+			</div><!-- /.container -->
 	</section>
+
 	<section id="gallery" class="gallery-block">
 		<div class="container">
 			<h2 class="section-title" data-i18n="gallery-title">Galeria</h2>
-			<h3 class="section-sub-title" data-i18n="gallery-subtitle">Subtitulo</h3>
+			<h3 class="section-sub-title" data-i18n="gallery-subtitle">Nuestra casa en imágenes</h3>
 		</div>
 		<div class="row">
 			<!-- first-columnn  -->
@@ -196,43 +199,69 @@
 			</div>
 		</div>
 	</section>
-	<section id="room">
-		<div class="container">
-				<div class="row">
-						<div id="accordion" class="accordion">
-							<h3><span data-i18n="accordeon1" class="glyphicon"> Dormitorios </span><span class="accordion-icon"></span></h3>
-							<div class="accordion-container">
-								<p data-i18n="accordion-syl-bed">Un dormitorio con una cama de 1'35 cm y otro con dos camas de 90 cm cada una.</p>
-							</div>
-							<h3><span data-i18n="accordeon2" class="glyphicon"> Cocina </span><span class="accordion-icon"></span></h3>
-							<div class="accordion-container">
-								<p data-i18n="accordion-syl-kit">Incluye microondas, tostadora, cafetera, lavadora y aire acondicionado.</p>
-							</div>
-							<h3><span data-i18n="accordeon3" class="glyphicon"> Baño </span><span class="accordion-icon"></span></h3>
-							<div class="accordion-container">
-								<p data-i18n="accordion-syl-bath">Incluye placa de ducha, lavabo, bidé y WC.</p>
-							</div>
-							<h3><span data-i18n="accordeon4" class="glyphicon"> Piscina </span><span class="accordion-icon"></span></h3>
-							<div class="accordion-container">
-								<p data-i18n="accordion-syl-swim">Dispone de tumbonas y piscina compartida.</p>
-							</div>
-						</div>
-				</div>
-			</div><!-- /.container -->
+
+	<section id="reservation">
+		<div class="container"> 
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+
+					<div class="container-text">
+						<h3 class="section-title" data-i18n="contact">Contactanos</h3>
+						<h3 class="section-sub-title" data-i18n="contact-subtitle">Estamos a tu disposicion</h3>
+					</div>
+
+					<div id="alert-ko" class="alert alert-danger alert-dismissible d-none" role="alert">
+	          	No se ha podido enviar el formulario de contacto en estos momentos. Por favor, inténtelo más tarde. Disculpe las molestias.
+	         		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+	        </div>
+	        <div id="alert-ok" class="alert alert-success alert-dismissible d-none" role="alert">
+	          	Se ha enviado el formulario de contacto correctamente. Le responderemos lo antes posible. Gracias.
+	          		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+	      	</div>
+	        <form id="form-leanfinance" action="" onsubmit="sendEmail(); return false;">
+	            <div class="form-group">
+	                <input type="text" id="form-name" placeholder="Escribe tu nombre" class="form-control c-square c-theme input-lg" required>
+	            </div>
+	            <div class="form-group">
+	                <input type="email" id="form-email" placeholder="Escribe tu email" class="form-control c-square c-theme input-lg" required>
+	            </div>
+	            <div class="form-group">
+	                <input type="text" id="form-phone" placeholder="Escribe tu teléfono" class="form-control c-square c-theme input-lg" required>
+	            </div>
+	            <div class="form-group">
+	                <textarea rows="8" id="form-message" placeholder="Motivo de consulta..." class="form-control c-theme c-square input-lg" required></textarea>
+	            </div>
+	            <div class="form-group">
+	              <div class="custom-control custom-checkbox">
+		                <input type="checkbox" class="custom-control-input" id="form-check" required>
+		                <label class="custom-control-label" for="form-check">Confirmo que acepto y he leído el <a href="#contacto" data-toggle="modal" data-target="#aviso_legal" target="_blank">aviso legal</a>.</label>
+	              </div>
+	            </div>
+	            <div class="form-group text-center">
+	            	<button type="submit" class="form-group btn btn-md c-btn-square c-btn-border-2x c-btn-regular c-btn-uppercase c-btn-bold">Enviar</button> 
+	            </div>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
 	</section>
+	
 	<footer id="footer-page">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
-					<span class="title" data-i18n="social-media">Siguenos</span>
+				<div class="col-md-6 col-sm-6 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+					<!--span class="title" data-i18n="social-media">Siguenos</span-->
 					<ul class="social-icons">
 						<li><a class="facebook-icon" href="https://www.facebook.com/Hostal-Costa-de-la-Luz-578508125585732/"><span>facebook</span></a></li>
 					</ul>
 				</div>
+				<div align="right" class="col-md-6">
+					Calle Pascual Junquera, 46, 11140 Conil de la Frontera, Cádiz
+				</div>
 			</div>
 		</div>
 		<div class="credits wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.4s">
-			<b>Hostal Costa Luz</b> | Todos los Derechos Reservados
+			<b>Hostal Costa Luz</b> &copy; 2019 | Todos los Derechos Reservados
 		</div>
 	</footer>
 
