@@ -440,7 +440,9 @@ section .section-title {
     font-family: "Philosopher", sans-serif;
     display: block;
 }
-
+section.section-primary .section-title {
+    color: #fff;
+}
 section .rooms-title {
     font-size: 30px;
     text-align: center;
@@ -767,7 +769,7 @@ nav.menu-nav > ul .menu-nav > ul .submenu.menu-active {
 
 #footer-page .credits {
     background-color: rgba(0,0,0,0.13);
-    color: var(--dark);
+    color: #64605a;
     font-size: 14px;
     margin: 24px 0 0;
     padding: 16px;
@@ -951,7 +953,8 @@ header {
     display: block;
 }
 
-#package .box button {
+#package .box button,
+#package .box a.btn-ofertas  {
     padding: 18px 0;
     width: 100%;
     border: none;
@@ -964,7 +967,8 @@ header {
     border-radius: 0;
 }
 
-#package .box button span {
+#package .box button span,
+#package .box a.btn-ofertas span {
     margin-right: 10px;
 }
 
@@ -1252,7 +1256,7 @@ header {
 #contact .block-container .box-header .icon-container {
     float: left;
     text-align: center;
-    width: 33.3333%;
+    width: 25%;
     padding: 10px 0;
     color: white;
     text-decoration: none;

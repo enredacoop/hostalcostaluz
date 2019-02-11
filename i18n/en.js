@@ -1,4 +1,5 @@
 {
+	"home": "Home",
 	"package-menu": "Rooms",
 	"houses-menu": "Houses",
 	"reservation-menu": "Reservation",
