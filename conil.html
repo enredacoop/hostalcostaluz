@@ -22,12 +22,19 @@
   <body ondragstart="return false;">
 	<nav id="menu-nav" class="menu-nav">
     <a href="index.html"><img class="logo-size logo-line" src="images/logo_menu.png" /></a>
+    <div id="menu-responsive">
+			<span class="button">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		 </div>
 		 <ul style="padding: 0 0 0 100px;">
 		 	 	<li><a data-i18n="home" href="index.html">Inicio</a></li>
-		    <li><a data-i18n="package-menu" href="index.html#package" href="#">Habitaciones</a></li>
-		    <li><a data-i18n="houses-menu" href="index.html#houses" href="#">Casas</a></li>
-		    <li><a data-i18n="reservation-menu" href="index.html#reservation" href="#">Reservas</a></li>
-		    <li><a data-i18n="gallery-menu" href="index.html#gallery" href="#">Galeria</a></li>
+		    <li><a data-i18n="package-menu" href="index.html#package">Habitaciones</a></li>
+		    <li><a data-i18n="houses-menu" href="index.html#houses">Casas</a></li>
+		    <li><a data-i18n="reservation-menu" href="index.html#reservation">Reservas</a></li>
+		    <li><a data-i18n="gallery-menu" href="index.html#gallery">Galeria</a></li>
 		    <li><a data-i18n="conil-menu" href="#">Actividades en Conil</a></li>
 		    <li><a data-i18n="contact-menu" href="#contact" href="#">Contacto</a></li>
 		    <li class="li-phone" style="left: 80px"><h5 style="align-content: right;"><span class="icon glyphicon glyphicon-earphone"></span> 648264811</h5></li>
@@ -97,7 +104,16 @@
 	<section id="package" class="">
 		<div class="container"> 
 			<h2 class="section-title" data-i18n="fgh-title">Finca Guzmán Hípica</h2>
-			<p data-i18n="fgh-description"></p>
+		</div>
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-8" style="float: initial; margin: 0 auto;">
+				  <div class="box wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+				  <span class="title"><img style='height:184px;width:100%' src="images/actividades/ruta_caballo.jpg" alt="img sample" /></span>
+					<span class="text" data-i18n="fgh-description" style="height: auto;"></span>
+				  </div>
+			  </div>
+			</div>
 		</div>
 		<div class="container">
 			<div class="row">

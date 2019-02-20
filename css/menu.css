@@ -149,15 +149,20 @@ nav {
 	}
 
 	.menu-nav #menu-responsive {
-		background-color: rgba(255,255,255, .9);
-		border-bottom: 1px solid #F1F1F1;
-		height: 50px;
-		position: relative;
-		display: none;
+    /* background-color: rgba(255,255,255, .9); */
+    /* border-bottom: 1px solid #F1F1F1; */
+    height: 70px;
+    position: relative;
+    display: none;
 	}
 
 	.menu-nav > ul {
 		display: none;
+		padding: 0px 30px !important;
+	}
+
+	.menu-nav > ul li.li-phone {
+		left: initial !important;
 	}
 
 	.menu-nav #menu-responsive {
