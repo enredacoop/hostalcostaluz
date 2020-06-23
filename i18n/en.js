@@ -19,7 +19,7 @@
 	"estandar-description": "Interior rooms with one double or two single beds on the lower or second floor",
 	"exterior": "Exterior",
 	"exterior-description": "Exterior rooms with a double bed on the lower or second floor",
-	"family": "Familiar",
+	"family": "Triple",
 	"family-description": "Room for 4 residents",
 	"offer-button": "See Offer",
 	"info-button": "More Information",
