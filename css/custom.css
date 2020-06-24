@@ -965,6 +965,12 @@ header {
     -moz-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
+    background-color: #e8e83c82;
+}
+
+#package .box a.btn-ofertas:hover  {
+background-color: #333;
+
 }
 
 #package .box button span,
@@ -1006,6 +1012,7 @@ header {
     border: 1px solid #DDD;
     padding: 6px;
     background-color: #ffffff;
+
 }
 
 #houses .box .title,
@@ -1112,6 +1119,12 @@ header {
     -moz-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
+     background-color: #e8e83c82;
+}
+
+#houses .box button:hover {
+background-color: #333;
+
 }
 
 #houses .box button span {
