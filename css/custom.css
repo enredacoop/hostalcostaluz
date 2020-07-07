@@ -965,11 +965,12 @@ header {
     -moz-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-    background-color: #e8e83c82;
+    background-color: yellow;
 }
 
 #package .box a.btn-ofertas:hover  {
 background-color: #333;
+color: #fff;
 
 }
 
@@ -1119,11 +1120,12 @@ background-color: #333;
     -moz-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-     background-color: #e8e83c82;
+     background-color: yellow;
 }
 
 #houses .box button:hover {
 background-color: #333;
+color: #fff;
 
 }
 
